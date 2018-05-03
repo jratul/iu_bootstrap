@@ -1,0 +1,11 @@
+.thumbnail > img {
+	width: auto;
+	max-height: 400px;
+}
+
+
+.thumbnail:hover {
+	transform: scale(1.05);
+	transition: transform 0.4s ease-out;
+}
+
