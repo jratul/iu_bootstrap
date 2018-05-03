@@ -1,0 +1,9 @@
+.carousel-inner > .item > img {
+	height: 400px;
+	min-width: 100px;
+	max-width: none;
+}
+
+.home-title {
+	color: #3366ff;
+}
