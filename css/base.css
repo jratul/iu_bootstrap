@@ -1,3 +1,18 @@
+body {
+	padding-bottom: 30px;
+}
+
+.footer-container {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #044788;
+	color: white;
+	overflow: hidden;
+}
+
 .right-menu-font {
 	font-size: 12px;
 }
