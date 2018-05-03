@@ -1,6 +1,6 @@
 # IU.net  
 
-!()[img/gallery/03.jpg]  
+![](img/gallery/03.jpg)  
 
 ## TODO  
 * ajax가 없어서 로컬에서 페이지 로드가 힘듦 -> header, footer의 쓸데없는 중복 제거 필요  
