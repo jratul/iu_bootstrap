@@ -1,5 +1,5 @@
 body {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 .footer-container {
@@ -7,6 +7,7 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	height:30px;
 	text-align: center;
 	background-color: #044788;
 	color: white;
