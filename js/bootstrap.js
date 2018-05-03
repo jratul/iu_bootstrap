@@ -974,8 +974,8 @@ if (typeof jQuery === 'undefined') {
 
     this.isShown = true
 
-    this.checkScrollbar()
-    this.setScrollbar()
+    /*this.checkScrollbar()
+    this.setScrollbar()*/
     this.$body.addClass('modal-open')
 
     this.escape()
@@ -998,7 +998,7 @@ if (typeof jQuery === 'undefined') {
 
       that.$element
         .show()
-        .scrollTop(0)
+        /*.scrollTop(0)*/
 
       that.adjustDialog()
 

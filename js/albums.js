@@ -30,7 +30,7 @@ $(document).ready(function() {
 		$(this).click(function() {
 			$('.modal-title').text(titles[idx]);
 
-			var list = $('<ul>');
+			var list = $('<ol>');
 			songs[idx].forEach(function(item) {
 				var li = $('<li>');
 				li.text(item);
@@ -44,6 +44,6 @@ $(document).ready(function() {
 	});
 
 	$('.btn-melon').each(function(idx) {
-		$(this).attr('href', albumUrl[idx]);
+		$(this).attr('href', albumUrl[idx]).attr('target', '_blank');
 	});
 });
