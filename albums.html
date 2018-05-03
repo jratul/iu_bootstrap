@@ -11,6 +11,7 @@
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/base.js"></script>
+	<script src="js/albums.js"></script>
 </head>
 <body>
 	<div class="container" id="content">
@@ -44,7 +45,7 @@
 							<li><a href="#" class="right-menu-font">Join</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#" class="right-menu-font">Join</a></li>
+							<li><a href="#" class="right-menu-font">Login</a></li>
 						</ul>
 					</div>
 				</div><!--div.collapse.navbar-collapse-->
@@ -66,8 +67,8 @@
 					</div>
 					<div class="panel-footer">
 						<center>
-							<a href="#" class="btn btn-success btn-sm">곡 목록보기</a>
-							<a href="#" class="btn btn-info btn-sm">음악 감상</a>
+							<a href="#" class="btn btn-success btn-sm btn-playlist">곡 목록보기</a>
+							<a href="#" class="btn btn-info btn-sm btn-melon">음악 감상</a>
 						</center>
 					</div>
 				</div><!--div.panel.panel-info-->
@@ -86,8 +87,8 @@
 					</div>
 					<div class="panel-footer">
 						<center>
-							<a href="#" class="btn btn-success btn-sm">곡 목록보기</a>
-							<a href="#" class="btn btn-info btn-sm">음악 감상</a>
+							<a href="#" class="btn btn-success btn-sm btn-playlist">곡 목록보기</a>
+							<a href="#" class="btn btn-info btn-sm btn-melon">음악 감상</a>
 						</center>
 					</div>
 				</div><!--div.panel.panel-info-->
@@ -106,8 +107,8 @@
 					</div>
 					<div class="panel-footer">
 						<center>
-							<a href="#" class="btn btn-success btn-sm">곡 목록보기</a>
-							<a href="#" class="btn btn-info btn-sm">음악 감상</a>
+							<a href="#" class="btn btn-success btn-sm btn-playlist">곡 목록보기</a>
+							<a href="#" class="btn btn-info btn-sm btn-melon">음악 감상</a>
 						</center>
 					</div>
 				</div><!--div.panel.panel-info-->
@@ -128,8 +129,8 @@
 					</div>
 					<div class="panel-footer">
 						<center>
-							<a href="#" class="btn btn-success btn-sm">곡 목록보기</a>
-							<a href="#" class="btn btn-info btn-sm">음악 감상</a>
+							<a href="#" class="btn btn-success btn-sm btn-playlist">곡 목록보기</a>
+							<a href="#" class="btn btn-info btn-sm btn-melon">음악 감상</a>
 						</center>
 					</div>
 				</div><!--div.panel.panel-info-->
@@ -148,8 +149,8 @@
 					</div>
 					<div class="panel-footer">
 						<center>
-							<a href="#" class="btn btn-success btn-sm">곡 목록보기</a>
-							<a href="#" class="btn btn-info btn-sm">음악 감상</a>
+							<a href="#" class="btn btn-success btn-sm btn-playlist">곡 목록보기</a>
+							<a href="#" class="btn btn-info btn-sm btn-melon">음악 감상</a>
 						</center>
 					</div>
 				</div><!--div.panel.panel-info-->
@@ -168,8 +169,8 @@
 					</div>
 					<div class="panel-footer">
 						<center>
-							<a href="#" class="btn btn-success btn-sm">곡 목록보기</a>
-							<a href="#" class="btn btn-info btn-sm">음악 감상</a>
+							<a href="#" class="btn btn-success btn-sm btn-playlist">곡 목록보기</a>
+							<a href="#" class="btn btn-info btn-sm btn-melon">음악 감상</a>
 						</center>
 					</div>
 				</div><!--div.panel.panel-info-->
@@ -181,5 +182,18 @@
 			© 2018 Copyright: <strong>K. Yu</strong> in Acorn
 		</div> 
 	</div>
+	<div class="modal fade" id="listModal">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span>&times;</span><span class="sr-only">모달 닫기</span></button>
+					<h4 class="modal-title">모달의 제목</h4>
+				</div>
+				<div class="modal-body">
+					<p class='modal-playlist'></p>
+				</div>
+			</div><!--div.modal-content-->
+		</div><!-- div.modal-dialog.modal-sm -->
+	</div><!--div.modal.fade#listModal -->
 </body>
 </html>
